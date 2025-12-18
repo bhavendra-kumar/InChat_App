@@ -33,3 +33,9 @@ The application allows users to:
   Contains helper functions and configurations like authentication logic,
   database clients, and socket configuration.
 
+
+### TypeScript Strict Configuration
+
+Strict TypeScript mode is enabled to catch errors during development.
+Rules like noImplicitAny and noUnusedLocals help reduce runtime bugs
+and keep the codebase clean and maintainable.
