@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Inchat 
 
-## Getting Started
+Inchat is a **WhatsApp Mini Clone** built using **Next.js (TypeScript)**.  
+This project is developed as part of **Sprint-1 at Kalvium** and focuses on
+building a clean, scalable foundation for a real-time chat application.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Building a full-scale chat application is complex.  
+**Inchat** is a simplified version that helps understand how real-time messaging
+works using modern full-stack technologies.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application allows users to:
+- Sign up and log in
+- View chat conversations
+- Send one-to-one messages in real time
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🗂 Folder Structure
 
-To learn more about Next.js, take a look at the following resources:
+- **app/**  
+  Contains application routes and pages using Next.js App Router.
+  Each route represents a screen in the chat application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **components/**  
+  Stores reusable UI components such as chat items, message bubbles,
+  input boxes, and buttons. This improves reusability and consistency.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **lib/**  
+  Contains helper functions and configurations like authentication logic,
+  database clients, and socket configuration.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
