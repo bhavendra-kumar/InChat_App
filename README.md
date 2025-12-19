@@ -45,3 +45,13 @@ This setup ensures secure handling of secrets and makes the project
 easy to configure across different environments.
 
 
+## Team Branching & PR Workflow
+### Branch Naming Convention
+- feature/<feature-name>
+- fix/<bug-name>
+- chore/<task-name>
+- docs/<update-name>
+### Example Branches
+- feature/login-auth
+- chore/env-setup
+- docs/update-readme
